@@ -1,5 +1,5 @@
 h1, h2,h3,h4{
-    color:white;
+    color:black;
     font-size:24px;
     text-decoration:none;
     text-align:center;
@@ -18,22 +18,17 @@ header {
     
 }
 
+header .active{
+    background-color: red;
+}
 header a {
-    padding:5px 15px;
-    border-radius:10px;
+    background-color:#B2FCFD;
+    padding: :5px 15px;
+    border-radius:10px
 }
 
-header .active{
-    background-color:#B2FCFD;
-}
-header a {
-    padding: :5px 15px;
-    border-radius:10px}
-header .active{
-    background-color:inherit
+
 main {
-    background-color:black;
-}
     color: white; 
     font-size: 20px;
     margin-left: -8px;
@@ -70,4 +65,5 @@ img {
 header li {
     display: inline-block;
     width:32%;
+}
    

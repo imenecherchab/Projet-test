@@ -3,7 +3,8 @@ h1, h2,h3,h4{
     font-size:24px;
     text-decoration:none;
     text-align:center;
-    font-family: cursive;
+    font-family:'Lobster', cursive;
+    
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 }
 
 header .active{
-    background-color: red;
+    background-color:#B2FCFD;
 }
 header a {
     background-color:#B2FCFD;
@@ -29,14 +30,16 @@ header a {
 
 
 main {
-    color: white; 
-    font-size: 20px;
+    color:black; 
+    font-size: 50px;
     margin-left: -8px;
     margin-right: -8px;
 }
 
 p {
-    text-align:justify;
+   
+    text-align:center;
+    font-family:'Lobster', cursive;
 }
     
 a {
@@ -58,12 +61,51 @@ strong {
 
 }
 
-img {
-    
+#photocv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+}
+
+.image-profil{
+    width: 200px;
+    height:200px;
 }
 
 header li {
     display: inline-block;
     width:32%;
+    
 }
-   
+
+#wrapper {
+    max-width:1200px;
+    margin: auto;
+    margin-top:80px;
+    background: #FFF;
+    display:block;
+    padding:20px;
+    overflow: hidden;
+}
+main {
+    max-width:1000px;
+    margin: auto;
+    margin-top:8px;
+    background: #FFF;
+    display:block;
+    padding:20px;
+    overflow: hidden; }
+
+
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    max-width: 1000px;
+    left:25px; 
+    right:25px;
+    margin: auto;
+}
+    
